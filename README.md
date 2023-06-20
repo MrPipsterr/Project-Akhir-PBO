@@ -19,12 +19,20 @@ terdapat beberapa package yaitu: config dan controller
 
 ## com.layout
 
-Menu: Berperan sebagai menu utama aplikasi. Fungsi showMenu() digunakan untuk menampilkan pilihan menu kepada pengguna dan mengarahkannya ke opsi yang dipilih.
+Menu: Berperan sebagai menu utama aplikasi. Fungsi `showMenu()` digunakan untuk menampilkan pilihan menu kepada pengguna dan mengarahkannya ke opsi yang dipilih.
 
-ReadData: Digunakan untuk membaca dan menampilkan data barang dari basis data kepada pengguna. Metode getDatabase() digunakan untuk mengambil data dari basis data dan menampilkannya di layar.
+ReadData: Digunakan untuk membaca dan menampilkan data barang dari basis data kepada pengguna. Method `getDatabase()` digunakan untuk mengambil data dari basis data dan menampilkannya di layar.
 
-InsertData: Berfungsi untuk menambahkan data barang baru ke dalam basis data. Metode insertData() meminta pengguna untuk memasukkan rincian barang baru seperti nama, harga, dan jumlah, kemudian data tersebut akan disimpan dalam basis data.
+InsertData: Berfungsi untuk menambahkan data barang baru ke dalam basis data. Method `insertData()` meminta pengguna untuk memasukkan rincian barang baru seperti nama, harga, dan jumlah, kemudian data tersebut akan disimpan dalam basis data.
 
-EditData: Digunakan untuk mengubah jumlah barang yang ada dalam basis data. Metode editData() meminta pengguna untuk memasukkan ID barang yang ingin diubah dan jumlah baru, lalu data akan diperbarui dalam basis data.
+EditData: Digunakan untuk mengubah jumlah barang yang ada dalam basis data. Method `editData()` meminta pengguna untuk memasukkan ID barang yang ingin diubah dan jumlah baru, lalu data akan diperbarui dalam basis data.
 
-DeleteData: Menghapus data barang dari basis data. Metode deleteData() meminta pengguna untuk memasukkan ID barang yang ingin dihapus, kemudian data tersebut akan dihapus dari basis data.
+DeleteData: Menghapus data barang dari basis data. Method `deleteData()` meminta pengguna untuk memasukkan ID barang yang ingin dihapus, kemudian data tersebut akan dihapus dari basis data.
+
+# Menjalankan Aplikasi
+
+untuk menjalankan, pastikan telah menjalankan server di MySQL
+
+1.  Compile dan Run class `App.java`
+2.  Dalam menu terdapat 4 opsi, yaitu membaca barang, menambahkan barang, mengubah data barang dan menghapus data
+3.  Opsi 0 untuk keluar dari aplikasi.
